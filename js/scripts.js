@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+    //Clicking th icons gives a text under them and vice versa
     $('.click-design').click(function(){
         $('figure#design-shown').toggle();
         $('div#design-hidden').toggle();
@@ -10,6 +12,62 @@ $(document).ready(function(){
     $('.click-product').click(function(){
         $('figure#product-shown').toggle();
         $('div#product-hidden').toggle();
+    });
+
+    //On mouse hoover, the title is shown
+    $('div#work4-profile').mouseover(function(){
+        $('div#work4').show();
     })
+    .mouseout(function(){
+        $('div#work4').hide();
+    })
+    $('div#work3-profile').mouseover(function(){
+        $('div#work3').show();
+    })
+    .mouseout(function(){
+        $('div#work3').hide();
+    })
+    $('div#work2-profile').mouseover(function(){
+        $('div#work2').show();
+    })
+    .mouseout(function(){
+        $('div#work2').hide();
+    })
+    $('div#work1-profile').mouseover(function(){
+        $('div#work1').show();
+    })
+    .mouseout(function(){
+        $('div#work1').hide();
+    })
+    $('div#work5-profile').mouseover(function(){
+        $('div#work5').show();
+    })
+    .mouseout(function(){
+        $('div#work5').hide();
+    })
+
+    $('div#work6-profile').mouseover(function(){
+        $('div#work6').show();
+    })
+    .mouseout(function(){
+        $('div#work6').hide();
+    })
+    $('div#work7-profile').mouseover(function(){
+        $('div#work7').show();
+    })
+    .mouseout(function(){
+        $('div#work7').hide();
+    })
+    $('div#work8-profile').mouseover(function(){
+        $('div#work8').show();
+    })
+    .mouseout(function(){
+        $('div#work8').hide();
+    })
+
+
+
+
+
 
 })
