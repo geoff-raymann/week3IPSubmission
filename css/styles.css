@@ -44,10 +44,6 @@ header {
 figcaption {
     font-size: large;
 }
-.container {
-    width: 500px;
-    height: 500px;
-}
 .form-control {
     background-color: transparent;
     color: transparent;
@@ -77,4 +73,134 @@ footer {
 }
 #product-hidden {
     display: none;
+}
+
+#work4-profile {
+   background-image: url(/images/assets/portfolio/work4.jpg);
+   width: 250px;
+   height: 205px;
+   text-align: center;
+}
+#work4 {
+    display: none;
+    margin-top: 30%;
+    color: white;
+    font-size: xx-large;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    padding: 2px;
+}
+#work3-profile {
+    background-image: url(/images/assets/portfolio/work3.jpg);
+    width: 250px;
+    height: 205px;
+    text-align: center;
+    
+}
+#work3 {
+    display: none;
+    margin-top: 30%;
+    color: mediumseagreen;
+    font-size: xx-large;
+    border-color: yellow;
+    border-width: 5px;
+    border-style: solid;
+    padding: 2px;
+}
+#work2-profile {
+    background-image: url(/images/assets/portfolio/work2.jpg);
+    width: 250px;
+    height: 205px;
+    text-align: center;
+}
+#work2 {
+    display: none;
+    margin-top: 30%;
+    color: white;
+    font-size: xx-large;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    padding: 2px;
+}
+#work1-profile {
+    background-image: url(/images/assets/portfolio/work1.jpg);
+    width: 250px;
+    height: 205px;
+    text-align: center;
+}
+#work1 {
+    display: none;
+    margin-top: 30%;
+    color: cyan;
+    font-size: xx-large;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    padding: 2px;
+}
+#work5-profile {
+    background-image: url(/images/assets/portfolio/work5.jpg);
+    width: 250px;
+    height: 205px;
+    text-align: center;
+}
+#work5 {
+    display: none;
+    margin-top: 30%;
+    color:deepskyblue;
+    font-size: xx-large;
+    border-color: green;
+    border-width: 5px;
+    border-style: solid;
+    padding: 2px;
+}
+#work6-profile {
+    background-image: url(/images/assets/portfolio/work6.jpg);
+    width: 250px;
+    height: 205px;
+    text-align: center;
+}
+#work6 {
+    display: none;
+    margin-top: 30%;
+    color:brown;
+    font-size: xx-large;
+    border-color:gray;
+    border-width: 5px;
+    border-style: solid;
+    padding: 2px;
+}
+#work7-profile {
+    background-image: url(/images/assets/portfolio/work7.jpg);
+    width: 250px;
+    height: 205px;
+    text-align: center;
+}
+#work7 {
+    display: none;
+    margin-top: 30%;
+    color:white;
+    font-size: xx-large;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    padding: 2px;
+}
+#work8-profile {
+    background-image: url(/images/assets/portfolio/work8.jpg);
+    width: 250px;
+    height: 205px;
+    text-align: center;
+}
+#work8 {
+    display: none;
+    margin-top: 30%;
+    color:white;
+    font-size: xx-large;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    padding: 2px;
 }
