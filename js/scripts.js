@@ -77,7 +77,8 @@ $(document).ready(function(){
 
 });
 
+
+//Business Logic
 function giveFeedback(name){
-   alert(name+" We have received your messege. Thanks for reaching out to us.");
-    
+           alert("Hello "+name+" We have received your messege. Thanks for reaching out to us.");  
 }
