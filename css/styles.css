@@ -51,7 +51,7 @@ figcaption {
 .comment {
     height: 300px;
     width: 800px;
-    margin-left: -100px;
+    margin-left: 200px;
 }
 .name-contact {
     padding-left: 20%;
@@ -203,4 +203,7 @@ footer {
     border-width: 5px;
     border-style: solid;
     padding: 2px;
+}
+.col-md-3 {
+    margin: 8px;
 }
