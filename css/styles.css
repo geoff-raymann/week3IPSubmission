@@ -207,3 +207,7 @@ footer {
 .col-md-3 {
     margin: 8px;
 }
+::placeholder {
+    color: white;
+    opacity: 1;
+}
