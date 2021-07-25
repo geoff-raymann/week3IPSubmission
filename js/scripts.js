@@ -1,3 +1,5 @@
+
+//This is user interface logic
 $(document).ready(function(){
 
     //Clicking th icons gives a text under them and vice versa
@@ -14,7 +16,7 @@ $(document).ready(function(){
         $('div#product-hidden').toggle();
     });
 
-    //On mouse hoover, the title is shown
+    //On mouse hoover, the title is shown on each portfolio project.
     $('div#work4-profile').mouseover(function(){
         $('div#work4').show();
     })
@@ -63,11 +65,19 @@ $(document).ready(function(){
     })
     .mouseout(function(){
         $('div#work8').hide();
+    });
+
+    //We take values from the user and alert them that the messege is received
+    $('form').submit(function(event){
+        event.preventDefault();
+        var name=$('input#name').val();
+        var email=$('input#email').val();
+        giveFeedback(name);
     })
 
+});
 
-
-
-
-
-})
+function giveFeedback(name){
+   alert(name+" We have received your messege. Thanks for reaching out to us.");
+    
+}
